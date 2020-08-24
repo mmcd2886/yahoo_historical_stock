@@ -38,22 +38,3 @@ with open('path_to_csv' , newline= '', encoding='utf-8-sig') as csv_file:
             df.to_csv('/Users/a/Desktop/stocks alpha csv/stocks_u_z.csv', mode='a', columns=['Date', 'Close', 'Symbol'], header=False)
         except:
             print(y)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
